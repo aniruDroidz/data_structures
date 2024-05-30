@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/_01_intermediate_dsa" />
+            <option value="$PROJECT_DIR$/_02_advanced_dsa" />
+            <option value="$PROJECT_DIR$/_03_maths" />
+            <option value="$PROJECT_DIR$/_04_oops" />
+            <option value="$PROJECT_DIR$/_05_hashing" />
+            <option value="$PROJECT_DIR$/_06_language_advance_concepts" />
+            <option value="$PROJECT_DIR$/_07_sorting" />
+            <option value="$PROJECT_DIR$/_08_searching" />
+            <option value="$PROJECT_DIR$/_09_backtracking" />
+            <option value="$PROJECT_DIR$/_10_two_pointers" />
+            <option value="$PROJECT_DIR$/_11_linked_lists" />
+            <option value="$PROJECT_DIR$/_12_stacks" />
+            <option value="$PROJECT_DIR$/_13_queues" />
+            <option value="$PROJECT_DIR$/_14_trees" />
+            <option value="$PROJECT_DIR$/_15_heaps" />
+            <option value="$PROJECT_DIR$/_17_greedy" />
+            <option value="$PROJECT_DIR$/_18_dynamic_programming" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
