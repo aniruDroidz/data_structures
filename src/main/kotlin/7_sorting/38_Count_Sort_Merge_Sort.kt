@@ -1,7 +1,5 @@
 package `7_sorting`
 
-import kotlinx.coroutines.flow.merge
-
 fun main() {
     val countSortMergeSort = `38_Count_Sort_Merge_Sort`()
 

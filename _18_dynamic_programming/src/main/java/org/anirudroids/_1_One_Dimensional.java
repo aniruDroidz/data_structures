@@ -95,7 +95,7 @@ public class _1_One_Dimensional {
         int fibn2 = 2;
         int fibn1 = 1;
 
-        for(int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) {
             int temp = fibn1 + fibn2;
             fibn2 = fibn1;
             fibn1 = temp;
@@ -105,7 +105,7 @@ public class _1_One_Dimensional {
     }
 
     /**
-     * GIven an integer N.
+     * Given an integer N.
      * Figure out the minimum number of perfect squares we can add to get the sum = N
      */
     int[] dp;
@@ -114,7 +114,7 @@ public class _1_One_Dimensional {
         // What will the state represent = min num of squares required to form sum = n
             // min square(i) = min squares required to form sum = i
         // Recurrence relationship
-            // minSquare[i] = for all j where j*j<=n Math.min(minSquare(i-j^2))+1;
+            // minSquare[i] = for all j where j*j<=n Math.min(min, Square(i-j^2))+1);
         //Which state is the answer?
             // minSquare(N)
         if(dp == null) {
