@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class _1_One_Dimensional {
 
     /**
-     * Fibonacci series
+     * Fibonacci series - recursive
      */
     public int fibonacci(int n) {
         // fib(n) = fib(n-1) + fib(n-2)

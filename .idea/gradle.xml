@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/_15_heaps" />
             <option value="$PROJECT_DIR$/_17_greedy" />
             <option value="$PROJECT_DIR$/_18_dynamic_programming" />
+            <option value="$PROJECT_DIR$/_19_graphs" />
           </set>
         </option>
       </GradleProjectSettings>
