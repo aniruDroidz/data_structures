@@ -1,4 +1,4 @@
-package org.anirudroids;
+package org.anirudroids.jan24_intermediate;
 
 import java.util.LinkedList;
 import java.util.Queue;

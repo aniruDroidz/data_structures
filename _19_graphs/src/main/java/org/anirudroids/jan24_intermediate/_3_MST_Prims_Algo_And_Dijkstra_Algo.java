@@ -1,4 +1,4 @@
-package org.anirudroids;
+package org.anirudroids.jan24_intermediate;
 
 public class _3_MST_Prims_Algo_And_Dijkstra_Algo {
 

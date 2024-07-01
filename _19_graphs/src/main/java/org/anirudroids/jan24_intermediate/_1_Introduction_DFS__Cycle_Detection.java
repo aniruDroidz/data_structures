@@ -1,4 +1,4 @@
-package org.anirudroids;
+package org.anirudroids.jan24_intermediate;
 
 public class _1_Introduction_DFS__Cycle_Detection {
     class Node {
