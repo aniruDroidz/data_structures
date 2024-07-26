@@ -14,7 +14,7 @@ class Recursion_1 {
     }
 
     fun factorial(n: Int): Int {
-        if(n == 0) {
+        if(n == 1) {
             return 1;
         }
 
@@ -54,11 +54,10 @@ class Recursion_1 {
         }
     }
 
-
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            print(`2_advanced_dsa`.`4_recursion`.Recursion_1().forth(3, 3))
+            print(Recursion_1().factorial(4))
         }
     }
 }

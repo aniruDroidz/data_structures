@@ -1,8 +1,32 @@
 
 //Love Babbar's 450 DSA Sheet
 
-fun main(args: Array<String>) {
+data class User(val name: String, val age: Int, val isEngineer: Boolean)
 
+fun main(args: Array<String>) {
+    //`partition test`()
+
+    val first = 9
+    val second = 3
+
+    println(second.coerceAtLeast(first))
+}
+
+private fun `partition test`() {
+    val users = listOf(
+        User("Aniruddha", 35, true),
+        User("Vishwas", 22, false),
+        User("Pranav", 30, true),
+        User("Ashu", 31, true)
+    )
+
+    val (engineers, nonEngineers) = users.partition { it.isEngineer }
+
+    engineers.forEach { print(it) }
+
+    println()
+
+    nonEngineers.forEach { print(it) }
 }
 
 fun arrayFlatten() {

@@ -1,4 +1,4 @@
-package `2_advanced_dsa`.`1_arrays`
+package org.anirudroids._1_arrays._17_arrays_1_one_diamentional
 
 /**
  * Rain water trapping

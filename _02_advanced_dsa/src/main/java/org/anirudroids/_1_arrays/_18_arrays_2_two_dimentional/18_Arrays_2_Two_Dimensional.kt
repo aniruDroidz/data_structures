@@ -1,4 +1,4 @@
-package `2_advanced_dsa`.`1_arrays`
+package org.anirudroids._1_arrays._18_arrays_2_two_dimentional
 
 fun main() {
 
