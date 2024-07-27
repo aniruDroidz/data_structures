@@ -1,4 +1,4 @@
-package org.anirudroids._1_arrays
+package org.anirudroids._1_arrays._20_arrays_3_interview_problems
 
 import kotlin.math.max
 import kotlin.math.min
