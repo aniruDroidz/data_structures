@@ -40,7 +40,7 @@ fun third_2(matrix: Array<Array<Int>>): Int {
         for(c1 in matrix[r1].indices) {
             for(r2 in r1..<matrix.size) { //bottom right
                 for(c2 in c1..<matrix[r2].size) {
-                    sum += `2_advanced_dsa`.`1_arrays`.second_2(matrix, r1, c1, r2, c2)
+                    sum += second_2(matrix, r1, c1, r2, c2)
                 }
             }
         }

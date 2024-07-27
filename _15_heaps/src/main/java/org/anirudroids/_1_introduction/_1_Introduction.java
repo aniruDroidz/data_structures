@@ -17,7 +17,7 @@ public class _1_Introduction {
 
     }
 
-    static void insert(ArrayList<Integer> heap, int value) {
+    public static void insert(ArrayList<Integer> heap, int value) {
         heap.add(value);
         upHeapify(heap, value);
     }
@@ -34,7 +34,7 @@ public class _1_Introduction {
         }
     }
 
-    static void deleteMin(ArrayList<Integer> heap) {
+    public static void deleteMin(ArrayList<Integer> heap) {
         int temp = heap.get(heap.size() - 1);
         heap.set(heap.size() - 1, heap.get(0));
         heap.set(0, temp);
@@ -43,7 +43,7 @@ public class _1_Introduction {
         downHeapify(heap, 0);
     }
 
-    static void downHeapify(ArrayList<Integer> heap, int index) {
+    public static void downHeapify(ArrayList<Integer> heap, int index) {
         int n = heap.size();
 
         int leftChildIndex = 2*index+1;
