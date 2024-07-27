@@ -1,3 +1,5 @@
+package org.anirudroids._29_combinatorics_basics
+
 class `29_Combinatorics_Basics` {
     /**
      * In a class -> 10 girls and 7 boys

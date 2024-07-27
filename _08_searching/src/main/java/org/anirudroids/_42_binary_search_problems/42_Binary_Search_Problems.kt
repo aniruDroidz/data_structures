@@ -1,3 +1,5 @@
+package org.anirudroids._42_binary_search_problems
+
 class `42_Binary_Search_Problems` {
 
     /**
