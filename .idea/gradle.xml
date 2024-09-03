@@ -27,6 +27,8 @@
             <option value="$PROJECT_DIR$/_17_greedy" />
             <option value="$PROJECT_DIR$/_18_dynamic_programming" />
             <option value="$PROJECT_DIR$/_19_graphs" />
+            <option value="$PROJECT_DIR$/_20_leetcode" />
+            <option value="$PROJECT_DIR$/_21_databases_and_sql" />
           </set>
         </option>
       </GradleProjectSettings>

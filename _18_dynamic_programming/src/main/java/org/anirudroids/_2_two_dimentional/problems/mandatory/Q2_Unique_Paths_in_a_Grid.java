@@ -78,7 +78,7 @@ public class Q2_Unique_Paths_in_a_Grid {
                 } else if(i == 0 && j == 0) {
                     dp[i][j] = 1;
                 } else {
-                    dp[i][j] = ((i !=0 || j ==0) ? dp[i-1][j] : 0) + ((i == 0 || j != 0) ? dp[i][j-1] : 0);
+                    dp[i][j] = (i != 0 ? dp[i-1][j] : 0) + (j != 0 ? dp[i][j-1] : 0);
                 }
             }
         }

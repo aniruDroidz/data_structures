@@ -73,9 +73,7 @@ public class Q2_0_1_Knapsack {
 
         for(int index = 0; index < A.length; index++){
             for(int jIndex = C; jIndex >= B[index]; jIndex--) {
-                if(B[index] <= jIndex) {
-                    dp[jIndex] = Math.max(A[index] + dp[jIndex-B[index]], dp[jIndex]);
-                }
+                dp[jIndex] = Math.max(A[index] + dp[jIndex-B[index]], dp[jIndex]);
             }
         }
 

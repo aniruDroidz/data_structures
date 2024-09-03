@@ -1,7 +1,6 @@
 package org.anirudroids._3_knapsack.problems.mandatory;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class Q1_Fractional_Knapsack {
     /**
@@ -92,12 +91,12 @@ public class Q1_Fractional_Knapsack {
 
         double result = 0;
 
-        for(int index = 0; index < pairs.length; index++) {
-            if(pairs[index].weight <= C) {
-                result += pairs[index].value;
-                C -= pairs[index].weight;
+        for (Pair pair : pairs) {
+            if (pair.weight <= C) {
+                result += pair.value;
+                C -= pair.weight;
             } else {
-                result += pairs[index].ratio * C;
+                result += pair.ratio * C;
                 break;
             }
         }

@@ -1,3 +1,4 @@
+import java.util.*
 
 //Love Babbar's 450 DSA Sheet
 
@@ -6,10 +7,37 @@ data class User(val name: String, val age: Int, val isEngineer: Boolean)
 fun main(args: Array<String>) {
     //`partition test`()
 
+    //mapAndFlatMapTest()
+
+    coerceTest()
+}
+
+fun mapAndFlatMapTest() {
+    val intArray: IntArray
+
+    val grocery = listOf(
+        Bag(listOf("Bournvita", "Rice", "Wheat")),
+        Bag(listOf("Badam", "Cashew")),
+        Bag(listOf("Chocolate", "Marshmallow"))
+    )
+    println(grocery)
+
+    val flatMap = grocery.flatMap { it.items }
+    println(flatMap)
+
+    val map = grocery.map { it.items }
+    println(map)
+}
+
+data class Bag (
+    val items: List<String>
+)
+
+private fun coerceTest() {
     val first = 9
     val second = 3
 
-    println(second.coerceAtLeast(first))
+    println(second.coerceAtMost(first))
 }
 
 private fun `partition test`() {

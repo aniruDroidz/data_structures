@@ -104,9 +104,9 @@ public class Q2_Cycle_in_Directed_Graph {
             graph[i] = new ArrayList<>();
         }
 
-        for(int i=0;i<B.length;i++) {
-            int src = B[i][0];
-            int des = B[i][1];
+        for (int[] ints : B) {
+            int src = ints[0];
+            int des = ints[1];
             graph[src].add(des);
         }
 

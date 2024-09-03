@@ -3,7 +3,8 @@ package org.anirudroids._43_binary_search_on_answers.problems.additional;
 public class Q1_Special_Integer {
     /**
      * Problem Description
-     * Given an array of integers A and an integer B, find and return the maximum value K such that there is no subarray in A of size K with the sum of elements greater than B.
+     * Given an array of integers A and an integer B, find and return the maximum value K such that there is no subarray in A of size K
+     * with the sum of elements greater than B.
      *
      *
      *
