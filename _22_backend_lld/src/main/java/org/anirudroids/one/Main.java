@@ -13,7 +13,6 @@ public class Main {
         A b = new B();
 
         Stream<Integer> stream;
-        stream.find
     }
 
     public void register(A a) {
