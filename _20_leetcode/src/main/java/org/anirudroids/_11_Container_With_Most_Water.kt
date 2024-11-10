@@ -2,6 +2,10 @@ package org.anirudroids
 
 fun main() {
 
+    for(i in 1..n) {
+        
+    }
+
     println(maxWater(intArrayOf(1,8,6,2,5,4,8,3,7)))
 }
 
