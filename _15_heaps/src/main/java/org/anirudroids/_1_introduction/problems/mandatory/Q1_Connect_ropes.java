@@ -72,8 +72,8 @@ public class Q1_Connect_ropes {
     public int solve(int[] A) {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
 
-        for(int i = 0; i < A.length; i++) {
-            queue.offer(A[i]);
+        for (int j : A) {
+            queue.offer(j);
         }
         int answer = 0;
 
