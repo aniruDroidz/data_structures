@@ -7,9 +7,14 @@ import java.util.PriorityQueue;
 public class Q1_Flipkarts_Challenge_in_Effective_Inventory_Management {
     /**
      * Problem Description
-     * In the recent expansion into grocery delivery, Flipkart faces a crucial challenge in effective inventory management. Each grocery item on the platform carries its own expiration date and profit margin, represented by two arrays, A and B of size N. A[i] denotes the time left before expiration date for the ith item, and B[i] denotes profit margin for the ith item. To mitigate potential losses due to expiring items, Flipkart is seeking a strategic solution.
+     * In the recent expansion into grocery delivery, Flipkart faces a crucial challenge in effective inventory management.
+     * Each grocery item on the platform carries its own expiration date and profit margin, represented by two arrays, A and B of size N.
+     * A[i] denotes the time left before expiration date for the ith item, and B[i] denotes profit margin for the ith item.
+     * To mitigate potential losses due to expiring items, Flipkart is seeking a strategic solution.
      *
-     * The objective is to identify a method to strategically buy certain items, ensuring they are sold before their expiration date, thereby maximizing overall profit. Can you assist Flipkart in developing an innovative approach to optimize their grocery inventory and enhance profitability?
+     * The objective is to identify a method to strategically buy certain items, ensuring they are sold before their expiration date,
+     * thereby maximizing overall profit. Can you assist Flipkart in developing an innovative approach to optimize their grocery inventory and
+     * enhance profitability?
      *
      * Your task is to find the maximum profit one can earn by buying groceries considering that you can only buy one grocery item at a time.
      *

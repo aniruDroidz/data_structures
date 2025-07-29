@@ -8,7 +8,8 @@ public class Q2_Ath_largest_element {
      * Problem Description
      * Given an integer array B of size N.
      *
-     * You need to find the Ath largest element in the subarray [1 to i], where i varies from 1 to N. In other words, find the Ath largest element in the sub-arrays [1 : 1], [1 : 2], [1 : 3], ...., [1 : N].
+     * You need to find the Ath largest element in the subarray [1 to i], where i varies from 1 to N.
+     * In other words, find the Ath largest element in the sub-arrays [1 : 1], [1 : 2], [1 : 3], ...., [1 : N].
      *
      * NOTE: If any subarray [1 : i] has less than A elements, then the output should be -1 at the ith index.
      *

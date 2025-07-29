@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class Q1_Path_in_Directed_Graph {
     /**
      * Problem Description
-     * Given an directed graph having A nodes labelled from 1 to A containing M edges given by matrix B of size M x 2such that there is a edge directed from node
+     * Given a directed graph having A nodes labelled from 1 to A containing M edges given by matrix B of size M x 2such that there is an edge directed
+     * from node
      *
      * B[i][0] to node B[i][1].
      *
@@ -82,10 +83,10 @@ public class Q1_Path_in_Directed_Graph {
 
     public int solve(int A, int[][] B) {
 
-        ArrayList<Integer> adjucencyList[] = new ArrayList[A+1];
+        ArrayList<Integer>[] adjucencyList = new ArrayList[A+1];
 
         for(int i = 0; i < adjucencyList.length; i++) {
-            adjucencyList[i] = new ArrayList<Integer>();
+            adjucencyList[i] = new ArrayList<>();
         }
 
         for (int[] ints : B) {

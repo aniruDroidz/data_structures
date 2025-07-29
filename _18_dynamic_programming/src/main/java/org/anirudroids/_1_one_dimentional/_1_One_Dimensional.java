@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class _1_One_Dimensional {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println(new _1_One_Dimensional().fibonacci_2(10));
     }
 
     /**
