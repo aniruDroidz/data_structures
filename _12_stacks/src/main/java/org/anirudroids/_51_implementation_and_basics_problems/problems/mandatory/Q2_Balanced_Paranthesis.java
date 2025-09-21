@@ -7,7 +7,8 @@ import java.util.Stack;
 public class Q2_Balanced_Paranthesis {
     /**
      * Problem Description
-     * Given an expression string A, examine whether the pairs and the orders of “{“,”}”, ”(“,”)”, ”[“,”]” are correct in A.
+     * Given an expression string A, examine whether the pairs and the orders 
+of “{“,”}”, ”(“,”)”, ”[“,”]” are correct in A.
      *
      * Refer to the examples for more clarity.
      *
@@ -19,7 +20,8 @@ public class Q2_Balanced_Paranthesis {
      *
      *
      * Input Format
-     * The first and the only argument of input contains the string A having the parenthesis sequence.
+     * The first and the only argument of input contains the string A having 
+the parenthesis sequence.
      *
      *
      *
