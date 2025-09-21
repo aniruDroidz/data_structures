@@ -5,7 +5,8 @@ import java.util.Stack;
 public class Q1_Nearest_Smaller_Element {
     /**
      * Problem Description
-     * Given an array A, find the nearest smaller element G[i] for every element A[i] in the array such that the element has an index smaller than i.
+     * Given an array A, find the nearest smaller element G[i] for every 
+element A[i] in the array such that the element has an index smaller than i.
      *
      * More formally,
      *
@@ -17,7 +18,8 @@ public class Q1_Nearest_Smaller_Element {
      *
      * A[j] < A[i]
      *
-     * Elements for which no smaller element exist, consider the next smaller element as -1.
+     * Elements for which no smaller element exist, consider the next smaller 
+element as -1.
      *
      *
      *
@@ -34,7 +36,8 @@ public class Q1_Nearest_Smaller_Element {
      *
      *
      * Output Format
-     * Return the integar array G such that G[i] contains the nearest smaller number than A[i]. If no such element occurs G[i] should be -1.
+     * Return the integar array G such that G[i] contains the nearest smaller
+ number than A[i]. If no such element occurs G[i] should be -1.
      *
      *
      *
