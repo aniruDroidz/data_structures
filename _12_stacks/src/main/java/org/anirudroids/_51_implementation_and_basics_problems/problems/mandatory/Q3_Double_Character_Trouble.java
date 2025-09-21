@@ -7,10 +7,13 @@ public class Q3_Double_Character_Trouble {
      * Problem Description
      * You have a string, denoted as A.
      *
-     * To transform the string, you should perform the following operation repeatedly:
-     * Identify the first occurrence of consecutive identical pairs of characters within the string.
+     * To transform the string, you should perform the following operation 
+repeatedly:
+     * Identify the first occurrence of consecutive identical pairs of 
+characters within the string.
      * Remove this pair of identical characters from the string.
-     * Repeat steps 1 and 2 until there are no more consecutive identical pairs of characters.
+     * Repeat steps 1 and 2 until there are no more consecutive identical 
+pairs of characters.
      * The final result will be the transformed string.
      *
      *
@@ -52,10 +55,12 @@ public class Q3_Double_Character_Trouble {
      *
      * The Given string is "abccbc".
      *
-     * Remove the first occurrence of consecutive identical pairs of characters "cc".
+     * Remove the first occurrence of consecutive identical pairs of characters 
+"cc".
      * After removing the string will be "abbc".
      *
-     * Again Removing the first occurrence of consecutive identical pairs of characters "bb".
+     * Again Removing the first occurrence of consecutive identical pairs of 
+characters "bb".
      * After remvoing, the string will be "ac".
      *
      * Now, there is no consecutive identical pairs of characters.
