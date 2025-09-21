@@ -5,9 +5,12 @@ import java.util.Stack;
 public class Q1_Passing_game {
     /**
      * Problem Description
-     * There is a football event going on in your city. In this event, you are given A passes and players having ids between 1 and 106.
+     * There is a football event going on in your city. In this event, 
+you are given A passes and players having ids between 1 and 106.
      *
-     * Initially, some player with a given id had the ball in his possession. You have to make a program to display the id of the player who possessed the ball after exactly A passes.
+     * Initially, some player with a given id had the ball in his possession. 
+You have to make a program to display the id of the player who possessed the ball 
+after exactly A passes.
      *
      * There are two kinds of passes:
      *
@@ -15,9 +18,11 @@ public class Q1_Passing_game {
      *
      * 2) 0
      *
-     * For the first kind of pass, the player in possession of the ball passes the ball "forward" to the player with id = ID.
+     * For the first kind of pass, the player in possession of the ball passes 
+the ball "forward" to the player with id = ID.
      *
-     * For the second kind of pass, the player in possession of the ball passes the ball back to the player who had forwarded the ball to him.
+     * For the second kind of pass, the player in possession of the ball 
+passes the ball back to the player who had forwarded the ball to him.
      *
      * In the second kind of pass "0" just means Back Pass.
      *
@@ -37,7 +42,8 @@ public class Q1_Passing_game {
      * Input Format
      * The first argument of the input contains the number A.
      *
-     * The second argument of the input contains the number B ( id of the player possessing the ball in the very beginning).
+     * The second argument of the input contains the number B ( id of the 
+player possessing the ball in the very beginning).
      *
      * The third argument is an array C of size A having (ID/0).
      *
