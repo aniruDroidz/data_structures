@@ -5,11 +5,14 @@ import java.util.Stack;
 public class Q4_Evaluate_Expression {
     /**
      * Problem Description
-     * An arithmetic expression is given by a string array A of size N. Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+     * An arithmetic expression is given by a string array A of size N. 
+Evaluate the value of an arithmetic expression in Reverse Polish Notation.
      *
-     * Valid operators are +, -, *, /. Each string may be an integer or an operator.
+     * Valid operators are +, -, *, /. Each string may be an integer or an 
+operator.
      *
-     * Note: Reverse Polish Notation is equivalent to Postfix Expression, where operators are written after their operands.
+     * Note: Reverse Polish Notation is equivalent to Postfix Expression, 
+where operators are written after their operands.
      *
      *
      *
@@ -24,7 +27,8 @@ public class Q4_Evaluate_Expression {
      *
      *
      * Output Format
-     * Return the value of arithmetic expression formed using reverse Polish Notation.
+     * Return the value of arithmetic expression formed using reverse Polish 
+Notation.
      *
      *
      *
