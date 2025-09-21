@@ -7,9 +7,11 @@ public class Q3_MAX_and_MIN {
      * Problem Description
      * Given an array of integers A.
      *
-     * The value of an array is computed as the difference between the maximum element in the array and the minimum element in the array A.
+     * The value of an array is computed as the difference between the maximum
+ element in the array and the minimum element in the array A.
      *
-     * Calculate and return the sum of values of all possible subarrays of A modulo 109+7.
+     * Calculate and return the sum of values of all possible subarrays of 
+A modulo 109+7.
      *
      *
      *
